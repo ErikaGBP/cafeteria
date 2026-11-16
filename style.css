@@ -1,0 +1,41 @@
+body {
+    background-color: azure;
+    background-image: -moz-linear-gradient();
+}
+
+.titulo {
+    color: blueviolet;
+}
+
+.father {
+    display: flex;
+    gap: 15px;
+    border-radius: 8px;
+}
+
+.item {
+    background-color: rgba(245, 188, 231, 0.466);
+    border-radius: 8px;
+    color: blueviolet;
+    width: 180px;
+}
+
+button {
+    background-color: bisque;
+    border-radius: 8px;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.fechamento {
+    color: blueviolet;
+    border-radius: 8px;
+}
+
+.nomeCliente {
+    border-radius: 8px;
+}
+
+.caro {
+    color: red;
+}

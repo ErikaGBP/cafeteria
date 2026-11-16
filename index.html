@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Café da Esquina</title>
+</head>
+<body>
+    <h1 class="titulo">Café da Esquina</h1>
+
+    <div class="father">
+
+        <div class="item">
+            <h2>Café Arabico</h2>
+            <p>R$ 7,00</p>
+            <button id="b1">Adicionar</button>
+        </div>
+
+        <div class="item">
+            <h2>Cappucino</h2>
+            <p>R$ 10,00</p>
+            <button id="b2">Adicionar</button>
+        </div>
+
+        <div class="item">
+            <h2>Café com Leite</h2>
+            <p>R$ 6,00</p>
+            <button id="b3">Adicionar</button>
+        </div>
+
+    </div>
+
+    <div class="fechamento">
+        <h2>Resumo do Pedido</h2>
+        <ul id="pedido">
+        </ul>
+        <p id="total">Total = R$ <span id="totalValor">0,00</span> </p>
+        <button id="limparPedido">Limpar Pedido</button>
+
+        <h2>Finalizar</h2>
+        <input id="nomeCliente" class="nomeCliente" type="text" placeholder="Digite o nome do Cliente"> 
+        <button id="finalizar">Finalizar Pedido</button>
+        <p id="mensagemCliente"></p>
+
+    </div>
+    <script src="app.js">  </script>
+</body>
+</html>
