@@ -29,7 +29,7 @@ botao1.addEventListener("click", () =>{
 })
 
 botao2.addEventListener("click" , () =>{
- addItemAtualizaValor("Capuccino", 10)
+ addItemAtualizaValor("Cappuccino", 10)
 })
 
 botao3.addEventListener("click" , () =>{
