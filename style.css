@@ -16,6 +16,8 @@ body {
 .item {
     background-color: rgba(245, 188, 231, 0.466);
     border-radius: 8px;
+    padding: 10px;
+    align-items: center;
     color: blueviolet;
     width: 180px;
 }
