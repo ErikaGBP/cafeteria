@@ -12,7 +12,7 @@ const nomeCliente= document.querySelector("#nomeCliente");
 
 function addItemAtualizaValor(nome, valor){
    const li= document.createElement("li")
-  li.textContent = nome;
+  li.textContent = nome + " - R$ " + valor.toFixed(2);
   fechamento.appendChild(li)
 
   total= total+ valor;
@@ -25,7 +25,7 @@ function addItemAtualizaValor(nome, valor){
 }
 
 botao1.addEventListener("click", () =>{
-  addItemAtualizaValor("CAfé Arabica", 7)
+  addItemAtualizaValor("Café Arabica", 7)
 })
 
 botao2.addEventListener("click" , () =>{
